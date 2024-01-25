@@ -1,0 +1,15 @@
+/Users/student/Desktop/Test your Luck/C Sharp things/bin/Debug/net8.0/C Sharp things
+/Users/student/Desktop/Test your Luck/C Sharp things/bin/Debug/net8.0/C Sharp things.deps.json
+/Users/student/Desktop/Test your Luck/C Sharp things/bin/Debug/net8.0/C Sharp things.runtimeconfig.json
+/Users/student/Desktop/Test your Luck/C Sharp things/bin/Debug/net8.0/C Sharp things.dll
+/Users/student/Desktop/Test your Luck/C Sharp things/bin/Debug/net8.0/C Sharp things.pdb
+/Users/student/Desktop/Test your Luck/C Sharp things/obj/Debug/net8.0/C Sharp things.GeneratedMSBuildEditorConfig.editorconfig
+/Users/student/Desktop/Test your Luck/C Sharp things/obj/Debug/net8.0/C Sharp things.AssemblyInfoInputs.cache
+/Users/student/Desktop/Test your Luck/C Sharp things/obj/Debug/net8.0/C Sharp things.AssemblyInfo.cs
+/Users/student/Desktop/Test your Luck/C Sharp things/obj/Debug/net8.0/C Sharp things.csproj.CoreCompileInputs.cache
+/Users/student/Desktop/Test your Luck/C Sharp things/obj/Debug/net8.0/C Sharp things.sourcelink.json
+/Users/student/Desktop/Test your Luck/C Sharp things/obj/Debug/net8.0/C Sharp things.dll
+/Users/student/Desktop/Test your Luck/C Sharp things/obj/Debug/net8.0/refint/C Sharp things.dll
+/Users/student/Desktop/Test your Luck/C Sharp things/obj/Debug/net8.0/C Sharp things.pdb
+/Users/student/Desktop/Test your Luck/C Sharp things/obj/Debug/net8.0/C Sharp things.genruntimeconfig.cache
+/Users/student/Desktop/Test your Luck/C Sharp things/obj/Debug/net8.0/ref/C Sharp things.dll
