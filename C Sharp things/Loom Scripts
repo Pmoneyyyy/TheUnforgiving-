@@ -1,0 +1,61 @@
+internal class Program
+{
+    private static void Main(string[] args)
+    {/ / player Stats
+float playerhealth = 100.0f
+float playerhunger = 0.0f
+bool hasweapon = false
+
+int health=100;
+int Hunger=50;
+int Thirst=30;
+
+if (health <= 0)
+{
+    Die();
+}
+else
+        {
+            if (Hunger < 80)
+            {
+                return;                return; return; health -= 2;
+            {
+.if (Hunger >= 80)
+{
+    health -= 2;
+}
+
+if (Thirst >= 60)
+{
+    health -= 1;
+}
+
+if (health <= 50 && Hunger <= 30)
+{
+    EatFood();
+
+    if (health <= 60 && Thirst <= 20)
+    {
+        DrinkWater();
+    }
+}
+
+int player Health = 100;
+int LowHealthThreshold =20;
+int gameTime= 0;
+
+while(playerhealth > 0)
+{
+    Console.Writtenline($"Game Time: {gameTime} seconds");
+    Console.WrittenLine($"Player Health: {playerHealth}");
+
+    int damageTaken = new Random().Next(1,  10);
+    playerhealth -= damageTaken;
+
+    gameTime++;
+
+    if (playerhealth <= lowHealthThreshold)
+    {
+        Console.WrittenLine("Low Health! Find resources to survive!");
+
+        

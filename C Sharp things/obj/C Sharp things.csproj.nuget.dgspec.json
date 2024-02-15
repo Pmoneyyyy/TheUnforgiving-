@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/student/Desktop/Test your Luck/C Sharp things/C Sharp things.csproj": {}
+    "/Users/student/Desktop/TheUnforgiving/C Sharp things/C Sharp things.csproj": {}
   },
   "projects": {
-    "/Users/student/Desktop/Test your Luck/C Sharp things/C Sharp things.csproj": {
+    "/Users/student/Desktop/TheUnforgiving/C Sharp things/C Sharp things.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/student/Desktop/Test your Luck/C Sharp things/C Sharp things.csproj",
+        "projectUniqueName": "/Users/student/Desktop/TheUnforgiving/C Sharp things/C Sharp things.csproj",
         "projectName": "C Sharp things",
-        "projectPath": "/Users/student/Desktop/Test your Luck/C Sharp things/C Sharp things.csproj",
+        "projectPath": "/Users/student/Desktop/TheUnforgiving/C Sharp things/C Sharp things.csproj",
         "packagesPath": "/Users/student/.nuget/packages/",
-        "outputPath": "/Users/student/Desktop/Test your Luck/C Sharp things/obj/",
+        "outputPath": "/Users/student/Desktop/TheUnforgiving/C Sharp things/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/student/.nuget/NuGet/NuGet.Config"
