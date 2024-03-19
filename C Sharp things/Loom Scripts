@@ -2,9 +2,16 @@ internal class Program
 {
     private static void Main(string[] args)
     {/ / player Stats
-float playerhealth = 100.0f
-float playerhunger = 0.0f
+public float playerhealth = 100.0f
+private float playerhunger = 0.0f
 bool hasweapon = false
+string[] itemsArray = { "game items","Water", "Food", "Medicine", "Weapons", "Tool"};
+
+for (int i = 0; i < itemsArray.Length; i++) 
+{
+  Console.WriteLine(i);
+}
+
 
 int health=100;
 int Hunger=50;
@@ -58,4 +65,21 @@ while(playerhealth > 0)
     {
         Console.WrittenLine("Low Health! Find resources to survive!");
 
-        
+       Public int AddValues(int a, int b) 
+    {
+        int result = a + b;
+        return result;
+    }
+         start()
+       {
+          int playerHealth= 100;
+          int damageTaken = 20;
+
+          int newHealth = AddValues(playerHealth, -damageTaken);
+
+         Private bool IsAlive()
+         {
+              return currentHealth > 0;
+         }
+       }
+       
