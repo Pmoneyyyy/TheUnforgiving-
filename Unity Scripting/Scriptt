@@ -1,27 +1,47 @@
-Public class Unitfying: Monobehavior
-
-Public float moveSpeed =5f;
-public int maxHealth = 100;
-private interface currentHealth;
-
-void Start()
+internal class Program
 {
-     currentHealth = maxHealth;
+    Public float moveSpeed =5f;
+    public int maxHealth = 100;
+    private interface currentHealth;
+    public float Jumpforce;
+
+    private static void Main(string[] args)
+    {
+        Public Private Rigidbody rb;
+
+
+        void Awake()
+        {
+            rb = GetComponent < Rigidbody();
+
+
+        }
+
+        void Start()
+        {
+            currentHealth = maxHealth;
+        }
+
+        void Update()
+        {
+
+            // Player movement
+            float horizontal = Input.GetAxis("Horizontal");
+            float vertical = Input.GetAxis("Vertical")
+           vector3 movement = new vector3(horizontal, or, vertical) * moveSpeed * Time
+           transform.Translate(movement);
+
+            // Simple attack
+            if (Input.GetButtonDown("Fire"))
+            {
+                TakeDamage(10); // Player damage value
+            }
+            void Fixedupdate()
+            {
+            }
+            rb.AddForce(Vector3.up * jumpForce);
+        }
+    }
 }
 
-void Update()
-{
 
-   // Player movement
-   float horizontal = Input.GetAxis("Horizontal");
-   float vertical = Input.GetAxis("Vertical")
-   vector3 movement = new vector3(horizontal, or, vertical) * moveSpeed * Time
-   transform.Translate(movement);
-
-   // Simple attack
-   if (Input.GetButtonDown("Fire"))
-   {
-       TakeDamage(10); // Player damage value
-   }
-
-}
