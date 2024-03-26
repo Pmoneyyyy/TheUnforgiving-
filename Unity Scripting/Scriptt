@@ -4,15 +4,16 @@ internal class Program
     public int maxHealth = 100;
     private interface currentHealth;
     public float Jumpforce;
+    Private Rigidbody rb;
 
     private static void Main(string[] args)
     {
-        Public Private Rigidbody rb;
+        
 
 
         void Awake()
         {
-            rb = GetComponent < Rigidbody();
+            rb = GetComponent<Rigidbody>();
 
 
         }
@@ -21,26 +22,30 @@ internal class Program
         {
             currentHealth = maxHealth;
         }
-
+       // this gets called 60 times per seconds 
         void Update()
         {
 
             // Player movement
             float horizontal = Input.GetAxis("Horizontal");
-            float vertical = Input.GetAxis("Vertical")
-           vector3 movement = new vector3(horizontal, or, vertical) * moveSpeed * Time
-           transform.Translate(movement);
+            float vertical = Input.GetAxis("Vertical");
+            Vector3 movement = new Vector3(horizontal, vertical,0) * moveSpeed * Time;
+            transform.Translate(movement);
 
             // Simple attack
             if (Input.GetButtonDown("Fire"))
             {
                 TakeDamage(10); // Player damage value
             }
-            void Fixedupdate()
-            {
-            }
+            
             rb.AddForce(Vector3.up * jumpForce);
         }
+        void Fixedupdate()
+            {
+                 console.WriteLine(Time.deltaTime);
+                
+
+            }
     }
 }
 
