@@ -1,7 +1,6 @@
 internal class Program
 {
-    private static void Main(string[] args)
-    {/ / player Stats
+private static void Main(string[] args){
 public float playerhealth = 100.0f
 private float playerhunger = 0.0f
 bool hasweapon = false
@@ -21,15 +20,15 @@ if (health <= 0)
 {
     Die();
 }
-else
-        {
-            if (Hunger < 80)
-            {
-                return;                return; return; health -= 2;
-            {
-.if (Hunger >= 80)
+
+
+
+if (Hunger >= 80)
 {
     health -= 2;
+}
+else{
+    health += 2;
 }
 
 if (Thirst >= 60)
@@ -41,10 +40,10 @@ if (health <= 50 && Hunger <= 30)
 {
     EatFood();
 
-    if (health <= 60 && Thirst <= 20)
-    {
+}
+if (health <= 60 && Thirst <= 20)
+{
         DrinkWater();
-    }
 }
 
 int player Health = 100;
@@ -64,22 +63,28 @@ while(playerhealth > 0)
     if (playerhealth <= lowHealthThreshold)
     {
         Console.WrittenLine("Low Health! Find resources to survive!");
-
-       Public int AddValues(int a, int b) 
-    {
-        int result = a + b;
-        return result;
     }
-         start()
+
+    
+ }
+  public void start()
        {
           int playerHealth= 100;
           int damageTaken = 20;
 
           int newHealth = AddValues(playerHealth, -damageTaken);
 
-         Private bool IsAlive()
-         {
-              return currentHealth > 0;
-         }
+        
        }
+    private bool IsAlive()
+        {
+              return currentHealth > 0;
+        }
+    public int AddValues(int a, int b) 
+    {
+        int result = a + b;
+        return result;
+    }
+    }}
+
        
