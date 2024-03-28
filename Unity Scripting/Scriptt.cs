@@ -42,8 +42,9 @@ internal class Program
         }
         void Fixedupdate()
             {
+                Time.deltaTime = 0.33f;
                  console.WriteLine(Time.deltaTime);
-                
+                rb.AddForce(Vector3.up * jumpForce);
 
             }
     }
